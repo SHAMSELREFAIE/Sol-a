@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="متجر Soléa للورد الفاخر - تشكيلة مميزة من الورد الطبيعي والنباتات العصارية بجودة عالية">
+<meta name="keywords" content="ورد, زهور, نباتات, هدايا, باقات">
+    <title>Soléa</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Tajawal:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <!-- Floating Petals Background -->
+    <div id="petals-container"></div>
+    
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <button id="languageToggle" class="btn btn-light shadow-sm rounded-pill px-4">
+            <span class="arabic-text">English</span>
+            <span class="english-text hidden-lang">العربية</span>
+            <i class="fas fa-language ms-2"></i>
+        </button>
+    </div>
+    
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top btn btn-lg rounded-circle shadow" style="background: linear-gradient(to right, #ff9a9e, #fad0c4, #ff9a9e);">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top nav-shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3 text-primary" href="#">
+                <i class="fas fa-spa me-2"></i>
+                <span class="arabic-text">Soléa</span>
+                <span class="english-text hidden-lang">Blossom Haven</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">
+                            <span class="arabic-text">الرئيسية</span>
+                            <span class="english-text hidden-lang">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Product Page.html">
+                            <span class="arabic-text">المنتجات</span>
+                            <span class="english-text hidden-lang">Products</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            <span class="arabic-text">من نحن</span>
+                            <span class="english-text hidden-lang">About</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">
+                            <span class="arabic-text">آراء العملاء</span>
+                            <span class="english-text hidden-lang">Testimonials</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            <span class="arabic-text">اتصل بنا</span>
+                            <span class="english-text hidden-lang">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="ms-lg-3 mt-3 mt-lg-0">
+                    <a href="#" class="btn shopping" style="background-color: #e83e8c; color:#f8f9fa;">
+                        <i class="fas fa-shopping-cart me-2"></i>
+                        <span class="arabic-text">سلة التسوق</span>
+                        <span class="english-text hidden-lang">Cart</span>
+                        <span class="badge bg-light ms-2" style="color: #e83e8c;">3</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section d-flex align-items-center">
+        <div class="container position-relative z-index-2">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
+                    <h1 class="display-3 fw-bold mb-4 arabic-text animate__animated animate__fadeInDown">
+                        أجمل باقات الورد لجميع المناسبات
+                    </h1>
+                    <h1 class="display-3 fw-bold mb-4 english-text hidden-lang animate__animated animate__fadeInDown">
+                        Beautiful Flower Arrangements for Every Occasion
+                    </h1>
+                    <p class="lead mb-5 arabic-text animate__animated animate__fadeInUp animate__delay-1s">
+                        اكتشف تشكيلتنا الفريدة من الورد الطبيعي والعصاري بجودة فائقة
+                    </p>
+                    <p class="lead mb-5 english-text hidden-lang animate__animated animate__fadeInUp animate__delay-1s">
+                        Discover our unique collection of premium natural flowers and succulents
+                    </p>
+                    <div class="animate__animated animate__fadeInUp animate__delay-2s">
+                        <a href="#products" class="btn btn-light btn-lg me-5 pulse arabic-text">
+                            تسوق الآن <i class="fas fa-arrow-left ms-2"></i>
+                        </a>
+                        <a href="#products" class="btn btn-light btn-lg me-3 pulse english-text hidden-lang">
+                            Shop Now <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg arabic-text">
+                            اطلب الآن
+                        </a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg english-text hidden-lang">
+                            Order Now
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 animate__animated animate__fadeIn animate__delay-1s">
+                    <img src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
+                         alt="Flower Bouquet" 
+                         class="img-fluid rounded shadow-lg floating" 
+                         data-aos="zoom-in">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Featured Categories - Improved Design -->
+<section class="py-5 bg-white ">
+    <div class="container py-5">
+        <div class="text-center mb-5" data-aos="fade-up">
+            <h2 class="display-4 fw-bold arabic-text">تصفح فئاتنا</h2>
+            <h2 class="display-4 fw-bold english-text hidden-lang">Explore Our Categories</h2>
+            <p class="lead text-muted arabic-text">اختر من بين مجموعة واسعة من الزهور الفاخرة</p>
+            <p class="lead text-muted english-text hidden-lang">Choose from our wide range of premium flowers</p>
+            <div class="divider mx-auto " style="width: 80px; height: 4px;background: linear-gradient(to right, #ff9a9e, #fad0c4, #ff9a9e);"></div>
+        </div>
+        
+        <div class="row g-4 justify-content-center">
+            <!-- Category 1 - Enhanced with Gradient Background -->
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                <div class="category-card h-100 rounded-4 overflow-hidden position-relative shadow-lg">
+                    <div class="category-overlay" style="background: linear-gradient(135deg, rgba(232,62,140,0.9) 0%, rgba(239, 137, 200, 0.9) 100%);">
+                        <div class="p-4 text-white text-center h-100 d-flex flex-column justify-content-center">
+                            <div class="icon-box bg-white text-primary rounded-circle mx-auto mb-4" style="width: 80px; height: 80px; line-height: 80px;">
+                                <i class="fas fa-rose fa-2x"></i>
+                            </div>
+                            <h4 class="mb-3 arabic-text">الورد الجوري</h4>
+                            <h4 class="mb-3 english-text hidden-lang">Roses</h4>
+                            <p class="mb-0 arabic-text">24 منتج</p>
+                            <p class="mb-0 english-text hidden-lang">24 products</p>
+                        </div>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1559563362-c667ba5f5480?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" 
+                         class="category-img" 
+                         alt="Roses">
+                </div>
+            </div>
+            
+            <!-- Category 2 - Enhanced with Hover Effect -->
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                <div class="category-card h-100 rounded-4 overflow-hidden position-relative shadow-lg">
+                    <div class="category-overlay" style="background: linear-gradient(135deg, rgba(76,175,80,0.9) 0%, rgba(33,150,243,0.9) 100%);">
+                        <div class="p-4 text-white text-center h-100 d-flex flex-column justify-content-center">
+                            <div class="icon-box bg-white text-success rounded-circle mx-auto mb-4" style="width: 80px; height: 80px; line-height: 80px;">
+                                <i class="fas fa-spa fa-2x"></i>
+                            </div>
+                            <h4 class="mb-3 arabic-text">زهور التوليب</h4>
+                            <h4 class="mb-3 english-text hidden-lang">Tulips</h4>
+                            <p class="mb-0 arabic-text">18 منتج</p>
+                            <p class="mb-0 english-text hidden-lang">18 products</p>
+                        </div>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946" 
+                         class="category-img" 
+                         alt="Tulips">
+                </div>
+            </div>
+            
+            <!-- Category 3 - Enhanced with Animation -->
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                <div class="category-card h-100 rounded-4 overflow-hidden position-relative shadow-lg">
+                    <div class="category-overlay" style="background: linear-gradient(135deg, rgba(255,152,0,0.9) 0%, rgba(233,30,99,0.9) 100%);">
+                        <div class="p-4 text-white text-center h-100 d-flex flex-column justify-content-center">
+                            <div class="icon-box bg-white text-warning rounded-circle mx-auto mb-4" style="width: 80px; height: 80px; line-height: 80px;">
+                                <i class="fas fa-leaf fa-2x"></i>
+                            </div>
+                            <h4 class="mb-3 arabic-text">الزنابق</h4>
+                            <h4 class="mb-3 english-text hidden-lang">Lilies</h4>
+                            <p class="mb-0 arabic-text">15 منتج</p>
+                            <p class="mb-0 english-text hidden-lang">15 products</p>
+                        </div>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1606041008023-472dfb5e530f" 
+                         class="category-img" 
+                         alt="Lilies">
+                </div>
+            </div>
+            
+            <!-- Category 4 - Enhanced with Pulse Effect -->
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                <div class="category-card h-100 rounded-4 overflow-hidden position-relative shadow-lg">
+                    <div class="category-overlay" style="background: linear-gradient(135deg, rgba(103,58,183,0.9) 0%, rgba(0,188,212,0.9) 100%);">
+                        <div class="p-4 text-white text-center h-100 d-flex flex-column justify-content-center">
+                            <div class="icon-box bg-white text-info rounded-circle mx-auto mb-4 pulse" style="width: 80px; height: 80px; line-height: 80px;">
+                                <i class="fas fa-seedling fa-2x"></i>
+                            </div>
+                            <h4 class="mb-3 arabic-text">نباتات عصارية</h4>
+                            <h4 class="mb-3 english-text hidden-lang">Succulents</h4>
+                            <p class="mb-0 arabic-text">22 منتج</p>
+                            <p class="mb-0 english-text hidden-lang">22 products</p>
+                        </div>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" 
+                         class="category-img" 
+                         alt="Succulents">
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-5" data-aos="fade-up">
+            <a href="#" class="btn btn-outline-primary btn-lg px-5 arabic-text">
+                عرض جميع الفئات <i class="fas fa-arrow-left ms-2"></i>
+            </a>
+            <a href="#" class="btn btn-outline-primary btn-lg px-5 english-text hidden-lang">
+                View All Categories <i class="fas fa-arrow-right ms-2"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Products Section - Animated & Pink -->
+<section id="products" class="products-section py-7 position-relative" style="background-color: #fff5f7;">
+    <!-- Floating Flowers Decorations -->
+    <div class="position-absolute top-0 left-0 w-100 h-100 overflow-hidden" style="z-index: 0;">
+        <div class="floating-flower" style="top: 15%; left: 5%; animation-delay: 0s;">🌸</div>
+        <div class="floating-flower" style="top: 25%; right: 8%; animation-delay: 1s;">🌺</div>
+        <div class="floating-flower" style="bottom: 20%; left: 10%; animation-delay: 2s;">🌼</div>
+        <div class="floating-flower" style="bottom: 30%; right: 5%; animation-delay: 3s;">🌻</div>
+    </div>
+
+    <div class="container position-relative" style="z-index: 1;">
+        <!-- Section Header -->
+        <div class="text-center mb-6" data-aos="zoom-in">
+            <span class="badge rounded-pill px-4 py-2 mb-3" style="background: rgba(232, 62, 140, 0.1); color: #e83e8c;">
+                <i class="fas fa-spa me-2"></i>
+                <span class="arabic-text">منتجاتنا الرائعة</span>
+                <span class="english-text hidden-lang">Our Exquisite Products</span>
+            </span>
+            <h2 class="display-4 fw-bold mb-3" style="color: #e83e8c;">
+                <span class="arabic-text">اكتشف جمال طبيعي</span>
+                <span class="english-text hidden-lang">Discover Natural Beauty</span>
+            </h2>
+            <div class="mx-auto" style="width: 100px; height: 3px; background: linear-gradient(to right, #ff9a9e, #fad0c4, #ff9a9e);"></div>
+        </div>
+
+        <!-- Products Grid -->
+        <div class="row g-4 mt-4" id="products-grid">
+            <!-- Product 1 -->
+            <div class="col-md-6 col-lg-4 col-xl-3" data-aos="flip-left" data-aos-delay="100">
+                <div class="product-card h-100 border-0 rounded-4 overflow-hidden position-relative" 
+                     style="background: white; box-shadow: 0 10px 30px rgba(232, 62, 140, 0.1);">
+                     
+                    <div class="product-badge position-absolute top-0 end-0 m-3 px-3 py-1 rounded-pill" 
+                         style="background: #ff9a9e; color: white; animation: pulse 2s infinite;">
+                         <span class="arabic-text">الأكثر مبيعاً</span>
+                         <span class="english-text hidden-lang">Bestseller</span>
+                    </div>
+                    
+                    <div class="product-img-container" style="height: 250px; overflow: hidden;">
+                        <img src="https://images.unsplash.com/photo-1559563362-c667ba5f5480?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" 
+                             class="product-img img-fluid h-100 w-100 object-fit-cover" 
+                             alt="Rose Bouquet"
+                             style="transition: transform 0.5s ease;">
+                    </div>
+                    
+                    <div class="p-4">
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <h5 class="mb-0 fw-bold" style="color: #e83e8c;">
+                                <span class="arabic-text">ورود حمراء فاخرة</span>
+                                <span class="english-text hidden-lang">Luxury Red Roses</span>
+                            </h5>
+                            <span class="badge rounded-pill px-2" style="background: rgba(76, 175, 80, 0.1); color: #4caf50;">
+                                <span class="arabic-text">متوفر</span>
+                                <span class="english-text hidden-lang">In Stock</span>
+                            </span>
+                        </div>
+                        <p class="text-muted small mb-3">
+                            <span class="arabic-text">12 وردة جوري طازجة مع تغليف مميز</span>
+                            <span class="english-text hidden-lang">12 fresh roses with premium packaging</span>
+                        </p>
+                        
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="mb-0 fw-bold" style="color: #e83e8c;">250 ج.م</h6>
+                            <button class="btn btn-sm rounded-pill px-3" 
+                                    style="background: #e83e8c; color: white; transition: all 0.3s ease;">
+                                <i class="fas fa-shopping-cart me-2"></i>
+                                <span class="arabic-text">إضافة</span>
+                                <span class="english-text hidden-lang">Add</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product 2 -->
+            <div class="col-md-6 col-lg-4 col-xl-3" data-aos="flip-left" data-aos-delay="200">
+                <div class="product-card h-100 border-0 rounded-4 overflow-hidden position-relative" 
+                     style="background: white; box-shadow: 0 10px 30px rgba(232, 62, 140, 0.1);">
+                     
+                    <div class="product-badge position-absolute top-0 end-0 m-3 px-3 py-1 rounded-pill" 
+                         style="background: #fad0c4; color: #e83e8c;">
+                         <span class="arabic-text">عرض خاص</span>
+                         <span class="english-text hidden-lang">Special Offer</span>
+                    </div>
+                    
+                    <div class="product-img-container" style="height: 250px; overflow: hidden;">
+                        <img src="https://plus.unsplash.com/premium_photo-1674581936605-82061bee4a6c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D" 
+                             class="product-img img-fluid h-100 w-100 object-fit-cover" 
+                             alt="Mixed Bouquet"
+                             style="transition: transform 0.5s ease;">
+                    </div>
+                    
+                    <div class="p-4">
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <h5 class="mb-0 fw-bold" style="color: #e83e8c;">
+                                <span class="arabic-text">باقة زهور متنوعة</span>
+                                <span class="english-text hidden-lang">Mixed Flower Bouquet</span>
+                            </h5>
+                            <span class="badge rounded-pill px-2" style="background: rgba(76, 175, 80, 0.1); color: #4caf50;">
+                                <span class="arabic-text">متوفر</span>
+                                <span class="english-text hidden-lang">In Stock</span>
+                            </span>
+                        </div>
+                        <p class="text-muted small mb-3">
+                            <span class="arabic-text">مزيج من أجمل الزهور الموسمية</span>
+                            <span class="english-text hidden-lang">Mix of beautiful seasonal flowers</span>
+                        </p>
+                        
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="mb-0 fw-bold" style="color: #e83e8c;">
+                                <span class="text-decoration-line-through me-2" style="color: #999;">220 ج.م</span>
+                                180 ج.م
+                            </h6>
+                            <button class="btn btn-sm rounded-pill px-3" 
+                                    style="background: #e83e8c; color: white; transition: all 0.3s ease;">
+                                <i class="fas fa-shopping-cart me-2"></i>
+                                <span class="arabic-text">إضافة</span>
+                                <span class="english-text hidden-lang">Add</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product 3 -->
+            <div class="col-md-6 col-lg-4 col-xl-3" data-aos="flip-left" data-aos-delay="300">
+                <div class="product-card h-100 border-0 rounded-4 overflow-hidden position-relative" 
+                     style="background: white; box-shadow: 0 10px 30px rgba(232, 62, 140, 0.1);">
+                     
+                    <div class="product-badge position-absolute top-0 end-0 m-3 px-3 py-1 rounded-pill" 
+                         style="background: #e83e8c; color: white;">
+                         <span class="arabic-text">جديد</span>
+                         <span class="english-text hidden-lang">New</span>
+                    </div>
+                    
+                    <div class="product-img-container" style="height: 250px; overflow: hidden;">
+                        <img src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" 
+                             class="product-img img-fluid h-100 w-100 object-fit-cover" 
+                             alt="Succulent Plant"
+                             style="transition: transform 0.5s ease;">
+                    </div>
+                    
+                    <div class="p-4">
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <h5 class="mb-0 fw-bold" style="color: #e83e8c;">
+                                <span class="arabic-text">نبتة عصارية</span>
+                                <span class="english-text hidden-lang">Succulent Plant</span>
+                            </h5>
+                            <span class="badge rounded-pill px-2" style="background: rgba(255, 152, 0, 0.1); color: #ff9800;">
+                                <span class="arabic-text">آخر قطعة</span>
+                                <span class="english-text hidden-lang">Last One</span>
+                            </span>
+                        </div>
+                        <p class="text-muted small mb-3">
+                            <span class="arabic-text">نبتة منزلية جميلة وسهلة العناية</span>
+                            <span class="english-text hidden-lang">Beautiful and easy-care house plant</span>
+                        </p>
+                        
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="mb-0 fw-bold" style="color: #e83e8c;">120 ج.م</h6>
+                            <button class="btn btn-sm rounded-pill px-3" 
+                                    style="background: #e83e8c; color: white; transition: all 0.3s ease;">
+                                <i class="fas fa-shopping-cart me-2"></i>
+                                <span class="arabic-text">إضافة</span>
+                                <span class="english-text hidden-lang">Add</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product 4 -->
+            <div class="col-md-6 col-lg-4 col-xl-3" data-aos="flip-left" data-aos-delay="400">
+                <div class="product-card h-100 border-0 rounded-4 overflow-hidden position-relative" 
+                     style="background: white; box-shadow: 0 10px 30px rgba(232, 62, 140, 0.1);">
+                    
+                    <div class="product-img-container" style="height: 250px; overflow: hidden;">
+                        <img src="https://plus.unsplash.com/premium_photo-1661591302882-4fe3ee5c81da?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D" 
+                             class="product-img img-fluid h-100 w-100 object-fit-cover" 
+                             alt="Gift Box"
+                             style="transition: transform 0.5s ease;">
+                    </div>
+                    
+                    <div class="p-4">
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <h5 class="mb-0 fw-bold" style="color: #e83e8c;">
+                                <span class="arabic-text">صندوق هدايا فاخر</span>
+                                <span class="english-text hidden-lang">Luxury Gift Box</span>
+                            </h5>
+                            <span class="badge rounded-pill px-2" style="background: rgba(76, 175, 80, 0.1); color: #4caf50;">
+                                <span class="arabic-text">متوفر</span>
+                                <span class="english-text hidden-lang">In Stock</span>
+                            </span>
+                        </div>
+                        <p class="text-muted small mb-3">
+                            <span class="arabic-text">صندوق هدايا يحتوي على زهور وشوكولاتة</span>
+                            <span class="english-text hidden-lang">Gift box containing flowers and chocolate</span>
+                        </p>
+                        
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="mb-0 fw-bold" style="color: #e83e8c;">350 ج.م</h6>
+                            <button class="btn btn-sm rounded-pill px-3" 
+                                    style="background: #e83e8c; color: white; transition: all 0.3s ease;">
+                                <i class="fas fa-shopping-cart me-2"></i>
+                                <span class="arabic-text">إضافة</span>
+                                <span class="english-text hidden-lang">Add</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- View All Button -->
+        <div class="text-center mt-6" data-aos="zoom-in-up" style="margin-top: 10px;">
+            <a href="Product Page.html" class="btn btn-lg px-5 rounded-pill position-relative" 
+               style="background: #e83e8c; color: white; overflow: hidden; border: none;">
+               <span class="position-relative z-1">
+                   <span class="arabic-text">عرض جميع المنتجات</span>
+                   <span class="english-text hidden-lang">View All Products</span>
+               </span>
+               <span class="position-absolute top-0 left-0 w-100 h-100" 
+                     style="background: linear-gradient(to right, #ff9a9e, #fad0c4); 
+                            opacity: 0; transition: opacity 0.3s ease; z-index: 0;"> 💐 </span>
+            </a>
+        </div>
+    </div>
+</section>
+
+    <!-- About Section -->
+<section id="about" class="about-section py-7 bg-light position-relative mt-4">
+    <!-- Decorative Elements -->
+    <div class="position-absolute top-0 start-0 w-100 h-100 overflow-hidden z-0">
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-light" style="opacity: 0.8;"></div>
+        <div class="position-absolute bottom-0 end-0" style="width: 300px; height: 300px; background: radial-gradient(circle, rgba(233,30,99,0.05) 0%, rgba(255,255,255,0) 70%);"></div>
+    </div>
+    
+    <div class="container position-relative z-1">
+        <div class="row g-5 align-items-center">
+            <!-- Image Column -->
+            <div class="col-lg-6" data-aos="fade-right">
+                <div class="position-relative">
+                    <img src="https://images.unsplash.com/photo-1557090495-fc9312e77b28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
+                         alt="Soléa" 
+                         class="img-fluid rounded-3 shadow-lg" 
+                         style="border: 8px solid white;">
+                    
+                    <!-- Quality Badge -->
+                    <div class="position-absolute bottom-0 start-0 translate-middle-y" style="width: 160px;">
+                        <div class="bg-white p-3 rounded-3 shadow-sm text-center">
+                            <i class="fas fa-certificate text-warning fs-2 mb-2"></i>
+                            <h6 class="mb-0 arabic-text">جودة مميزة</h6>
+                            <h6 class="mb-0 english-text hidden-lang">Premium Quality</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Content Column -->
+            <div class="col-lg-6" data-aos="fade-left">
+                <div class="ps-lg-4">
+                    <!-- Section Header -->
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="flex-shrink-0">
+                            <div class="bg-dark text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <span class="text-uppercase small fw-bold text-muted arabic-text">Soléa</span>
+                            <span class="text-uppercase small fw-bold text-muted english-text hidden-lang">Blossom Haven</span>
+                            <h2 class="h1 fw-bold mt-1 mb-0 arabic-text">رؤيتنا للجمال الطبيعي</h2>
+                            <h2 class="h1 fw-bold mt-1 mb-0 english-text hidden-lang">Our Vision of Natural Beauty</h2>
+                        </div>
+                    </div>
+                    
+                    <!-- Main Content -->
+                    <div class="content-text mb-5">
+                        <p class="lead text-dark arabic-text">نحن نؤمن بأن الزهور ليست مجرد نباتات، بل هي لغة تعبر عن المشاعر</p>
+                        <p class="lead text-dark english-text hidden-lang">We believe flowers are not just plants, but a language that expresses emotions</p>
+                        
+                        <div class="arabic-text">
+                            <p>في Soléa، نبتكر ترتيبات زهور استثنائية تلهم وتدهش. فريقنا من خبراء الزهور والمصممين الموهوبين يعملون معًا لتحويل الرؤى إلى واقع ملموس.</p>
+                            <p class="mb-0">نحرص على اختيار أفضل الزهور الطازجة من حول العالم، ونتعامل مع كل باقة كقطعة فنية فريدة تنقل المشاعر وتخلق ذكريات لا تنسى.</p>
+                        </div>
+                        
+                        <div class="english-text hidden-lang">
+                            <p>At Blossom Haven, we create exceptional floral arrangements that inspire and amaze. Our team of flower experts and talented designers work together to turn visions into reality.</p>
+                            <p class="mb-0">We carefully select the freshest flowers from around the world, treating each bouquet as a unique work of art that conveys emotions and creates unforgettable memories.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Values -->
+                    <div class="values-grid mb-5">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="bg-white p-4 rounded-3 h-100">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <div class="bg-light rounded-circle p-3 me-3">
+                                            <i class="fas fa-star text-warning fs-4"></i>
+                                        </div>
+                                        <h5 class="mb-0 arabic-text">الجودة</h5>
+                                        <h5 class="mb-0 english-text hidden-lang">Quality</h5>
+                                    </div>
+                                    <p class="mb-0 small text-muted arabic-text">نستخدم فقط أفضل الزهور الطازجة والمكونات عالية الجودة</p>
+                                    <p class="mb-0 small text-muted english-text hidden-lang">We use only the freshest flowers and highest quality materials</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="bg-white p-4 rounded-3 h-100">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <div class="bg-light rounded-circle p-3 me-3">
+                                            <i class="fas fa-lightbulb text-info fs-4"></i>
+                                        </div>
+                                        <h5 class="mb-0 arabic-text">الإبداع</h5>
+                                        <h5 class="mb-0 english-text hidden-lang">Creativity</h5>
+                                    </div>
+                                    <p class="mb-0 small text-muted arabic-text">تصاميم مبتكرة وفريدة لكل مناسبة</p>
+                                    <p class="mb-0 small text-muted english-text hidden-lang">Innovative and unique designs for every occasion</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="bg-white p-4 rounded-3 h-100">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <div class="bg-light rounded-circle p-3 me-3">
+                                            <i class="fas fa-heart text-danger fs-4"></i>
+                                        </div>
+                                        <h5 class="mb-0 arabic-text">العاطفة</h5>
+                                        <h5 class="mb-0 english-text hidden-lang">Passion</h5>
+                                    </div>
+                                    <p class="mb-0 small text-muted arabic-text">حب حقيقي للزهور وتأثيرها على الحياة</p>
+                                    <p class="mb-0 small text-muted english-text hidden-lang">Genuine love for flowers and their impact on life</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="bg-white p-4 rounded-3 h-100">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <div class="bg-light rounded-circle p-3 me-3">
+                                            <i class="fas fa-hand-holding-heart text-success fs-4"></i>
+                                        </div>
+                                        <h5 class="mb-0 arabic-text">الاهتمام</h5>
+                                        <h5 class="mb-0 english-text hidden-lang">Care</h5>
+                                    </div>
+                                    <p class="mb-0 small text-muted arabic-text">اهتمام بالتفاصيل في كل ما نقدمه</p>
+                                    <p class="mb-0 small text-muted english-text hidden-lang">Attention to detail in everything we do</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- CTA -->
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#contact" class="btn btn-dark btn-lg px-4 arabic-text">
+                            تواصل مع فريقنا <i class="fas fa-arrow-left ms-2"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-dark btn-lg px-4 english-text hidden-lang">
+                            Contact Our Team <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                        <a href="#products" class="btn btn-outline-dark btn-lg px-4 arabic-text">
+                            استكشف التصاميم
+                        </a>
+                        <a href="#products" class="btn btn-outline-dark btn-lg px-4 english-text hidden-lang">
+                            Explore Designs
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Testimonials Section -->
+<section id="testimonials" class="py-7 position-relative" style="background-color: #fff5f7;">
+    <div class="container position-relative">
+        <!-- Section Header -->
+        <div class="text-center mb-6" data-aos="fade-up">
+            <span class="badge rounded-pill px-4 py-2 mb-3" style="background: rgba(232, 62, 140, 0.1); color: #e83e8c;">
+                <i class="fas fa-heart me-2"></i>
+                <span class="arabic-text">آراء العملاء</span>
+                <span class="english-text hidden-lang">Testimonials</span>
+            </span>
+            <h2 class="display-4 fw-bold mb-3" style="color: #e83e8c;">
+                <span class="arabic-text">ماذا يقول عملاؤنا</span>
+                <span class="english-text hidden-lang ">What Clients Say</span>
+            </h2>
+            <div class="mx-auto" style="width: 100px; height: 3px; background: linear-gradient(to right, #ff9a9e, #fad0c4, #ff9a9e);"></div>
+        </div>
+
+        <!-- Testimonials Carousel -->
+        <div class="position-relative mt-4">
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Testimonial 1 -->
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="testimonial-card h-100 p-4 rounded-4 position-relative">
+                                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Client" class="client-img">
+                                        <div>
+                                            <h5 class="mb-1 fw-bold arabic-text">سارة أحمد</h5>
+                                            <h5 class="mb-1 fw-bold english-text hidden-lang">Sarah Ahmed</h5>
+                                            <small class="text-muted arabic-text">  Artist</small>
+                                            <small class="text-muted english-text hidden-lang">Artist</small>
+                                        </div>
+                                    </div>
+                                    <div class="rating mb-3">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="mb-0 arabic-text">الباقة كانت أجمل مما توقعت! الورد ظل طازجًا لأكثر من أسبوعين. شكرًا لكم على الجودة الرائعة والخدمة الممتازة.</p>
+                                    <p class="mb-0 english-text hidden-lang">The bouquet was more beautiful than I expected! The flowers stayed fresh for over two weeks. Thank you for the amazing quality and excellent service.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="testimonial-card h-100 p-4 rounded-4 position-relative">
+                                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Client" class="client-img">
+                                        <div>
+                                            <h5 class="mb-1 fw-bold arabic-text">خالد محمد</h5>
+                                            <h5 class="mb-1 fw-bold english-text hidden-lang">Khaled Mohammed</h5>
+                                            <small class="text-muted arabic-text">  Engineer
+                                            </small>
+                                            <small class="text-muted english-text hidden-lang">Engineer</small>
+                                        </div>
+                                    </div>
+                                    <div class="rating mb-3">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="mb-0 arabic-text">التوصيل كان في الموعد المحدد والباقة ملفتة للنظر. زوجتي كانت سعيدة جدًا بالهدية!</p>
+                                    <p class="mb-0 english-text hidden-lang">Delivery was on time and the bouquet was stunning. My wife was very happy with the gift!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 2 -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="testimonial-card h-100 p-4 rounded-4 position-relative">
+                                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Client" class="client-img">
+                                        <div>
+                                            <h5 class="mb-1 fw-bold arabic-text">نورا عبدالله</h5>
+                                            <h5 class="mb-1 fw-bold english-text hidden-lang">Nora Abdullah</h5>
+                                            <small class="text-muted arabic-text">مديرة علاقات عملاء</small>
+                                            <small class="text-muted english-text hidden-lang">Client Relations Manager</small>
+                                        </div>
+                                    </div>
+                                    <div class="rating mb-3">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <p class="mb-0 arabic-text">نطلب منهم باقات الورد لكل مناسبات الشركة، دائمًا يقدمون الأفضل! التصاميم مبتكرة والخدمة ممتازة.</p>
+                                    <p class="mb-0 english-text hidden-lang">We order flower bouquets for all company occasions, they always deliver the best! The designs are innovative and the service is excellent.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="testimonial-card h-100 p-4 rounded-4 position-relative">
+                                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Client" class="client-img">
+                                        <div>
+                                            <h5 class="mb-1 fw-bold arabic-text">أميرة سعد</h5>
+                                            <h5 class="mb-1 fw-bold english-text hidden-lang">Amira Saad</h5>
+                                            <small class="text-muted arabic-text"> Doctor</small>
+                                            <small class="text-muted english-text hidden-lang">Doctor</small>
+                                        </div>
+                                    </div>
+                                    <div class="rating mb-3">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="mb-0 arabic-text">أحب التعامل مع هذا المتجر، الزهور دائماً طازجة والتغليف أنيق جداً. أنصح الجميع بهم!</p>
+                                    <p class="mb-0 english-text hidden-lang">I love dealing with this store, the flowers are always fresh and the packaging is very elegant. I recommend them to everyone!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 3 -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="testimonial-card h-100 p-4 rounded-4 position-relative">
+                                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Client" class="client-img">
+                                        <div>
+                                            <h5 class="mb-1 fw-bold arabic-text">ياسر علي</h5>
+                                            <h5 class="mb-1 fw-bold english-text hidden-lang">Yasser Ali</h5>
+                                            <small class="text-muted arabic-text"> Accountant </small>
+                                            <small class="text-muted english-text hidden-lang">Accountant</small>
+                                        </div>
+                                    </div>
+                                    <div class="rating mb-3">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                    </div>
+                                    <p class="mb-0 arabic-text">الخدمة سريعة والزهور جميلة، و السعر مناسب جداً مقارنة بالمتاجر الأخرى.</p>
+                                    <p class="mb-0 english-text hidden-lang">The service is fast and the flowers are beautiful, but the price is a bit high compared to other stores.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="testimonial-card h-100 p-4 rounded-4 position-relative">
+                                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="Client" class="client-img">
+                                        <div>
+                                            <h5 class="mb-1 fw-bold arabic-text">لمى خالد</h5>
+                                            <h5 class="mb-1 fw-bold english-text hidden-lang">Lama Khaled</h5>
+                                            <small class="text-muted arabic-text"> Teacher</small>
+                                            <small class="text-muted english-text hidden-lang">Teacher </small>
+                                        </div>
+                                    </div>
+                                    <div class="rating mb-3">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="mb-0 arabic-text">أول تجربة لي مع المتجر وكانت ممتازة! باقة الورد وصلت في الوقت المحدد وبحالة رائعة.</p>
+                                    <p class="mb-0 english-text hidden-lang">My first experience with the store was excellent! The rose bouquet arrived on time and in great condition.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon  rounded-circle p-3" aria-hidden="true" style="background-color: #e83e8c;"></span>
+                    <span class="visually-hidden arabic-text">السابق</span>
+                    <span class="visually-hidden english-text hidden-lang">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon rounded-circle p-3" aria-hidden="true" style="background-color: #e83e8c;"></span>
+                    <span class="visually-hidden arabic-text">التالي</span>
+                    <span class="visually-hidden english-text hidden-lang">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Contact Section -->
+<section id="contact" class="contact-section position-relative overflow-hidden">
+  <!-- Video Background -->
+  <div class="video-background">
+    <video autoplay muted loop playsinline>
+      <source src="https://assets.mixkit.co/videos/preview/mixkit-woman-holding-a-bouquet-of-pink-flowers-1765-large.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+  </div>
+
+  <div class="container py-7 position-relative z-index-1">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="contact-container bg-white rounded-5 shadow-lg overflow-hidden">
+          <div class="row g-0">
+            <!-- Contact Info Side -->
+            <div class="col-lg-5 contact-info-side p-5 d-flex flex-column">
+              <h2 class="display-5 fw-bold mb-4 text-dark arabic-text">تواصل معنا</h2>
+              <h2 class="display-5 fw-bold mb-4 text-dark english-text hidden-lang">Get in Touch</h2>
+              
+              <div class="contact-method mb-4">
+                <div class="d-flex align-items-start">
+                  <div class="icon-circle me-3">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <div>
+                    <h5 class="fw-bold mb-1 arabic-text">الموقع</h5>
+                    <h5 class="fw-bold mb-1 english-text hidden-lang">Location</h5>
+                    <p class="mb-0 arabic-text"> مصر ، المنصورة ، شارع الجامعة</p>
+                    <p class="mb-0 english-text hidden-lang">Riyadh, Saudi Arabia</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="contact-method mb-4">
+                <div class="d-flex align-items-start">
+                  <div class="icon-circle me-3">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <div>
+                    <h5 class="fw-bold mb-1 arabic-text">اتصل بنا</h5>
+                    <h5 class="fw-bold mb-1 english-text hidden-lang">Call Us</h5>
+                    <p class="mb-0">01234567890</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="contact-method mb-4">
+                <div class="d-flex align-items-start">
+                  <div class="icon-circle me-3">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div>
+                    <h5 class="fw-bold mb-1">Email</h5>
+                    <p class="mb-0">info@Soléa.com</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="mt-auto">
+                <h5 class="fw-bold mb-3 arabic-text">تابعنا</h5>
+                <h5 class="fw-bold mb-3 english-text hidden-lang">Follow Us</h5>
+                <div class="social-icons">
+                  <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                  <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="social-icon"><i class="fab fa-snapchat-ghost"></i></a>
+                  <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Contact Form Side -->
+            <div class="col-lg-7 contact-form-side p-5">
+              <h3 class="fw-bold mb-4 arabic-text">أرسل رسالتك</h3>
+              <h3 class="fw-bold mb-4 english-text hidden-lang">Send Your Message</h3>
+              
+              <form class="contact-form">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <div class="form-floating">
+                      <input type="text" class="form-control" id="floatingName" placeholder="الاسم">
+                      <label for="floatingName" class="arabic-text">الاسم الكامل</label>
+                      <label for="floatingName" class="english-text hidden-lang">Full Name</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-floating">
+                      <input type="email" class="form-control" id="floatingEmail" placeholder="البريد الإلكتروني">
+                      <label for="floatingEmail">Email</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-floating">
+                      <textarea class="form-control" placeholder="رسالتك" id="floatingMessage" style="height: 120px"></textarea>
+                      <label for="floatingMessage" class="arabic-text">رسالتك</label>
+                      <label for="floatingMessage" class="english-text hidden-lang">Your Message</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-dark btn-lg w-100 py-3 arabic-text">
+                      <i class="fas fa-paper-plane me-2"></i> إرسال
+                    </button>
+                    <button type="submit" class="btn btn-dark btn-lg w-100 py-3 english-text hidden-lang">
+                      <i class="fas fa-paper-plane me-2"></i> Send
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+   
+   <!-- Special Offers Section -->
+<section class="offers-section py-6 position-relative" style="background: linear-gradient(135deg, #fff0f6 0%, #f8f9fa 100%);margin-top:10px;">
+  <!-- Floating Flower Decorations -->
+  <div class="position-absolute top-0 left-0 w-100 h-100 overflow-hidden" style="z-index: 0;">
+    <div class="floating-flower" style="top: 15%; left: 5%;">🌹</div>
+    <div class="floating-flower" style="top: 25%; right: 8%; animation-delay: 1s;">🌷</div>
+    <div class="floating-flower" style="bottom: 20%; left: 10%; animation-delay: 2s;">🌸</div>
+  </div>
+
+  <div class="container position-relative" style="z-index: 1;">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <span class="badge rounded-pill px-4 py-2 mb-3" style="background: rgba(232, 62, 140, 0.1); color: #e83e8c;">
+        <i class="fas fa-gift me-2"></i>
+        <span class="arabic-text">عروض خاصة</span>
+        <span class="english-text hidden-lang">Special Offers</span>
+      </span>
+      <h2 class="display-4 fw-bold mb-3" style="color: #e83e8c;">
+        <span class="arabic-text">اكتشف عروضنا المميزة</span>
+        <span class="english-text hidden-lang">Discover Our Exclusive Offers</span>
+      </h2>
+      <div class="mx-auto" style="width: 100px; height: 3px; background: linear-gradient(to right, #ff9a9e, #fad0c4, #ff9a9e);"></div>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+      <!-- Offer 1 -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="offer-card h-100 rounded-4 overflow-hidden position-relative shadow-sm">
+          <div class="offer-badge position-absolute top-0 start-0 m-3 px-3 py-1 rounded-pill" style="background: #e83e8c; color: white;">
+            <span class="arabic-text">جديد</span>
+            <span class="english-text hidden-lang">New</span>
+          </div>
+          <img src="https://plus.unsplash.com/premium_photo-1677005708723-c0dabb815e4b?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+               class="offer-img img-fluid w-100" 
+               alt="Special Offer"
+               style="height: 200px; object-fit: cover;">
+          <div class="p-4">
+            <h4 class="fw-bold mb-3 arabic-text">باقة الورد المميزة</h4>
+            <h4 class="fw-bold mb-3 english-text hidden-lang">Premium Flower Bouquet</h4>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="text-decoration-line-through text-muted arabic-text">300 ج.م</span>
+              <span class="text-decoration-line-through text-muted english-text hidden-lang">300 SAR</span>
+              <span class="fs-4 fw-bold" style="color: #e83e8c;">240 ج.م</span>
+            </div>
+            <p class="small text-muted mb-4 arabic-text">اشتر الآن واحصل على خصم 20% مع توصيل مجاني</p>
+            <p class="small text-muted mb-4 english-text hidden-lang">Buy now and get 20% off with free delivery</p>
+            <a href="#products" class="btn btn-outline-primary w-100 rounded-pill arabic-text">
+              <i class="fas fa-shopping-cart me-2"></i> اطلب الآن
+            </a>
+            <a href="#products" class="btn btn-outline-primary w-100 rounded-pill english-text hidden-lang">
+              <i class="fas fa-shopping-cart me-2"></i> Order Now
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Offer 2 -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="offer-card h-100 rounded-4 overflow-hidden position-relative shadow-sm">
+          <div class="offer-badge position-absolute top-0 start-0 m-3 px-3 py-1 rounded-pill" style="background: #ff9800; color: white;">
+            <span class="arabic-text">الأكثر مبيعاً</span>
+            <span class="english-text hidden-lang">Bestseller</span>
+          </div>
+          <img src="https://images.unsplash.com/photo-1565695951564-007d8f297e48?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+               class="offer-img img-fluid w-100" 
+               alt="Special Offer"
+               style="height: 200px; object-fit: cover;">
+          <div class="p-4">
+            <h4 class="fw-bold mb-3 arabic-text">باقة الزهور المختلطة</h4>
+            <h4 class="fw-bold mb-3 english-text hidden-lang">Mixed Flowers Bouquet</h4>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="text-decoration-line-through text-muted arabic-text">220 ج.م</span>
+              <span class="text-decoration-line-through text-muted english-text hidden-lang">220 SAR</span>
+              <span class="fs-4 fw-bold" style="color: #e83e8c;">180 ج.م
+              </span>
+            </div>
+            <p class="small text-muted mb-4 arabic-text">خصم خاص 18% لفترة محدودة</p>
+            <p class="small text-muted mb-4 english-text hidden-lang">Special 18% discount for limited time</p>
+            <a href="#products" class="btn btn-outline-primary w-100 rounded-pill arabic-text">
+              <i class="fas fa-shopping-cart me-2"></i> اطلب الآن
+            </a>
+            <a href="#products" class="btn btn-outline-primary w-100 rounded-pill english-text hidden-lang">
+              <i class="fas fa-shopping-cart me-2"></i> Order Now
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Offer 3 -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="offer-card h-100 rounded-4 overflow-hidden position-relative shadow-sm">
+          <div class="offer-badge position-absolute top-0 start-0 m-3 px-3 py-1 rounded-pill" style="background: #4caf50; color: white;">
+            <span class="arabic-text">حصري</span>
+            <span class="english-text hidden-lang">Exclusive</span>
+          </div>
+          <img src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" 
+               class="offer-img img-fluid w-100" 
+               alt="Special Offer"
+               style="height: 200px; object-fit: cover;">
+          <div class="p-4">
+            <h4 class="fw-bold mb-3 arabic-text">مجموعة النباتات العصارية</h4>
+            <h4 class="fw-bold mb-3 english-text hidden-lang">Succulent Plants Set</h4>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="text-decoration-line-through text-muted arabic-text">350 ج.م</span>
+              <span class="text-decoration-line-through text-muted english-text hidden-lang">350 SAR</span>
+              <span class="fs-4 fw-bold" style="color: #e83e8c;">290 ج.م</span>
+            </div>
+            <p class="small text-muted mb-4 arabic-text">3 نباتات عصرية بخصم 17% مع هدية مجانية</p>
+            <p class="small text-muted mb-4 english-text hidden-lang">3 succulent plants with 17% discount plus free gift</p>
+            <a href="#products" class="btn btn-outline-primary w-100 rounded-pill arabic-text">
+              <i class="fas fa-shopping-cart me-2"></i> اطلب الآن
+            </a>
+            <a href="#products" class="btn btn-outline-primary w-100 rounded-pill english-text hidden-lang">
+              <i class="fas fa-shopping-cart me-2"></i> Order Now
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Footer -->
+<footer class="arabic-footer" style="margin-top: 10px;">
+  <div class="container">
+    <div class="footer-grid">
+      <!-- Column 1: Brand Info -->
+      <div class="footer-brand">
+        <div class="logo-wrapper">
+          <i class="fas fa-spa logo-icon"></i>
+          <span class="brand-name">Soléa</span>
+        </div>
+        <p class="brand-description">
+          ترتيبات زهور فاخرة لكل المناسبات. جمال الطبيعة يصل إليك.
+        </p>
+        <div class="social-links">
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-snapchat-ghost"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+
+      <!-- Column 2: Quick Links -->
+      <div class="footer-links">
+        <h3 class="section-title">روابط سريعة</h3>
+        <ul>
+          <li><a href="#">الرئيسية</a></li>
+          <li><a href="#">المتجر</a></li>
+          <li><a href="#">معرض الأعمال</a></li>
+          <li><a href="#">المدونة</a></li>
+          <li><a href="#">حول المتجر</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Categories -->
+      <div class="footer-links">
+        <h3 class="section-title">الفئات</h3>
+        <ul>
+          <li><a href="#">الورد الجوري</a></li>
+          <li><a href="#">النباتات العصارية</a></li>
+          <li><a href="#">باقات الزفاف</a></li>
+          <li><a href="#">هدايا الأعياد</a></li>
+          <li><a href="#">التصاميم الخاصة</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4: Contact -->
+      <div class="footer-contact">
+        <h3 class="section-title">تواصل معنا</h3>
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span> مصر ، المنصورة ، شارع الجامعة</span>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-phone-alt"></i>
+          <span>01234567890</span>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <span>info@solea.com</span>
+        </div>
+        <button class="whatsapp-btn">
+          <i class="fab fa-whatsapp"></i>
+          تواصل عبر واتساب
+        </button>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="payment-methods">
+        <span>طرق الدفع المتاحة:</span>
+        <div class="payment-icons">
+          <i class="fa-brands fa-cc-visa"></i>
+          <i class="fa-brands fa-cc-mastercard"></i>
+         <i class="fa-brands fa-cc-paypal"></i>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>جميع الحقوق محفوظة &copy; <span class="year">2023</span> Soléa</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="designer-card" style="position: fixed; bottom: 10px; left: 10px; background: rgba(255,255,255,0.9); padding: 5px 10px; border-radius: 20px; font-size: 12px; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+    صمم بواسطة <span style="color: var(--primary); font-weight: bold;">Shams Al_Rifai </span>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
